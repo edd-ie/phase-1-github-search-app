@@ -109,6 +109,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
                                 let repos = document.createElement('a');
                                 repos.href = i.html_url;
                                 repos.textContent = i.name;
+                                repos.target="_blank";
 
                                 display.appendChild(li);
                                 li.appendChild(repos);
